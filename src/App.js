@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>User Search</h1>
+      <h1>Naudotojų paieška</h1>
       <SearchBar
         searchTerm={searchTerm}
         onSearch={handleSearch}

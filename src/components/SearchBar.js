@@ -8,9 +8,9 @@ const SearchBar = React.memo(({ searchTerm, onSearch, onClear }) => {
         type="text"
         value={searchTerm}
         onChange={(e) => onSearch(e.target.value)}
-        placeholder="Search by name"
+        placeholder="Įveskite vardą.."
       />
-      <button onClick={onClear}>Clear</button>
+      <button onClick={onClear}>Valyti</button>
     </div>
   );
 });
